@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">Whack-a-Mole</h1>
+        <p id="score" class="lead mb-4">Score: 0</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="grid-container">
+                    
+                    <div class="grid-item" id="hole1"></div>
+                    <div class="grid-item" id="hole2"></div>
+                    <div class="grid-item" id="hole3"></div>
+                    <div class="grid-item" id="hole4"></div>
+                    <div class="grid-item" id="hole5"></div>
+                    <div class="grid-item" id="hole6"></div>
+                    <div class="grid-item" id="hole7"></div>
+                    <div class="grid-item" id="hole8"></div>
+                    <div class="grid-item" id="hole9"></div>
+                </div>
+                <div class="button-container mt-4">
+                    <button id="start-button" class="btn btn-success mr-2">Start</button>
+                    <button id="stop-button" class="btn btn-danger mr-2" disabled>Stop</button>
+                    <button id="resume-button" class="btn btn-primary" disabled>Resume</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
